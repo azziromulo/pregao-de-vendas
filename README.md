@@ -1,14 +1,12 @@
-# Pregão de Vendas
+# Sales Trading Floor
 
-**Live demo:** https://azziromulo.github.io/pregao-de-vendas/
+**Live demo:** https://azziromulo.github.io/sales-trading-floor/
 
 A sales dashboard designed like a stock-trading terminal. Each sales region is treated as a traded asset: its "price" is rolling 7-day revenue (in BRL thousands) and its "volume" is the number of orders. Sales leaders can read momentum, volatility and trend the same way a trader reads a chart.
 
-The interface is in Brazilian Portuguese.
-
 ## What it shows
 
-- **Ticker tape** with every region's latest value and 7-day change
+- **Ticker tape** with every region's latest value and 7-day change (tickers SEAST, SOUTH, NEAST, CWEST, NORTH, ECOM and the SALES index)
 - **Main chart** with candlestick, bar or area view, daily/weekly/monthly periods, 1M/3M/6M/1Y/all ranges and two moving averages
 - **Watchlist** and an asset detail card (52-week high/low, 30-day orders, average ticket, budget attainment, year-over-year change)
 - **Actual vs. budget**, year to date, by region
